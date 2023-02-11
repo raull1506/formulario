@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="main">
+        <form  method="POST" action="index.html">
+            <h1>Cadastre-se</h1>
+            <hr>
+
+            <div class="name-box">
+                <input type="text" placeholder="Nome" id="nome">
+                <input type="text" placeholder="Sobrenome" id="sobrenome">
+            </div>
+
+            <input type="text" placeholder="Email">
+
+            <input type="password" placeholder="senha">
+
+            <input type="text" placeholder="Telefone">
+            
+            <label for="#">Sua data de nascimento</label>
+            <div class="select-box">
+                <select>
+                    <option value="jan">1</option>
+                    <option value="fev">2</option>
+                    <option value="mar">3</option>
+                    <option value="abr">4</option>
+                    <option value="mai">5</option>
+                </select>
+    
+                <select>
+                    <option value="jan">Jan</option>
+                    <option value="fev">Fev</option>
+                    <option value="mar">Mar</option>
+                    <option value="abr">Abr</option>
+                    <option value="mai">Mai</option>
+                </select>
+    
+                <select>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                </select>
+            </div>
+
+            <label for="genero">Genero</label>
+            <div class="radio-box">
+                <input type="radio" name="genero" id="feminino">
+                <label for="feminino">Feminino</label>
+
+                <input type="radio" name="genero" id="masculino">
+                <label for="masculino">Masculino</label>
+            </div>
+
+            <button type="submit">Cadastrar agora</button>
+        </form>
+    </section>
+</body>
+</html>
